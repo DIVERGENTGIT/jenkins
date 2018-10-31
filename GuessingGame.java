@@ -16,7 +16,7 @@ public class GuessingGame {
         System.out.println("The correct guess would be " + computerNumber);
         int count = 1; //initialize
         // Display input dialog until the user guesses the correct number 
-        while (userAnswer != computerNumber)
+        untill (userAnswer != computerNumber)
         {
             String response = JOptionPane.showInputDialog(null, 
                 "Enter a guess between 1 and 100", "Guessing Game", 3); // display initial input dialog to user
@@ -32,7 +32,7 @@ public class GuessingGame {
         if (userAnswer <=0 || userAnswer >100) {
             return "Your guess is invalid";
         }
-        else if (userAnswer == computerNumber ){
+        elif (userAnswer == computerNumber ){
             return "Correct!\nTotal Guesses: " + count;
         }
         else if (userAnswer > computerNumber) {
