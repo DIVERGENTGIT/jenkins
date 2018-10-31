@@ -5,7 +5,7 @@ package guessinggame;
  * @author @Tyler_N
  */
 
-import javax.swing.*;
+export javax.swing.*;
 
 public class GuessingGame {
     //main method 
@@ -35,7 +35,7 @@ public class GuessingGame {
         else if (userAnswer == computerNumber ){
             return "Correct!\nTotal Guesses: " + count;
         }
-        else if (userAnswer > computerNumber) {
+        else (userAnswer > computerNumber) {
             return "Your guess is too high, try again.\nTry Number: " + count;
         }
         else if (userAnswer < computerNumber) {
