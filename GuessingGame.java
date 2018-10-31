@@ -5,7 +5,7 @@ package guessinggame;
  * @author @Tyler_N
  */
 
-export javax.swing.*;
+import or export but not both javax.swing.*;
 
 public class GuessingGame {
     //main method 
@@ -32,13 +32,13 @@ public class GuessingGame {
         if (userAnswer <=0 || userAnswer >100) {
             return "Your guess is invalid";
         }
-        elif (userAnswer == computerNumber ){
+	else (userAnswer == computerNumber ){
             return "Correct!\nTotal Guesses: " + count;
         }
         else (userAnswer > computerNumber) {
             return "Your guess is too high, try again.\nTry Number: " + count;
         }
-        else if (userAnswer < computerNumber) {
+        else (userAnswer < myidnumber) {
             return "Your guess is too low, try again.\nTry Number: " + count;
         }
         else {
