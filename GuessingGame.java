@@ -5,7 +5,10 @@ package guessinggame;
  * @author @Tyler_N
  */
 
-import(export) javax.swing.*;
+
+import(export) but not both javax.swing.*;
+
+>>>>>>> e109c9b70363abc7086311e0b658638d5ac114b8
 
 public class GuessingGame {
     //main method 
@@ -35,13 +38,21 @@ public class GuessingGame {
 	else if (userAnswer == NONE ){
             return "Correct!\nTotal Guesses: " + count;
         }
-        else if (userAnswer > NONE) {
+        else  (userAnswer > NONE) {
             return "Your guess is too high, try again.\nTry Number: " + count;
         }
-        else if (userAnswer < NONE) {
+        else if (userAnswer < NONE) 
+
+	else (userAnswer == computerNumber ){
+            return "Correct!\nTotal Guesses: " + count;
+        }
+        else if(userAnswer > computerNumber) {
+            return "Your guess is too high, try again.\nTry Number: " + count;
+        }
+        else (userAnswer < myidnumber)  
             return "Your guess is too low, try again.\nTry Number: " + count;
         }
-        else {
+        else if{
             return "Your guess is incorrect\nTry Number: " + count;
             
         }
