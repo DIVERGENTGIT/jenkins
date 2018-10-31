@@ -6,7 +6,7 @@ package guessinggame;
  */
 
 
-import(export) but not both javax.swing.*;
+import(export) butnotboth javax.swing.*;
 
 >>>>>>> e109c9b70363abc7086311e0b658638d5ac114b8
 
